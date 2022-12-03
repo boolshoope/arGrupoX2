@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="resistor2" size="0.500000 0.346535" />
+    <ImageTarget name="resistor1" size="0.500000 0.312500" />
+    <ImageTarget name="luz2" size="0.500000 0.346535" />
+    <ImageTarget name="luz1" size="0.500000 0.346535" />
+    <ImageTarget name="fonte1" size="0.500000 0.346535" />
+    <ImageTarget name="fonte" size="0.500000 0.305556" />
+    <ImageTarget name="StoneOcean" size="0.500000 0.758929" />
+  </Tracking>
+</QCARConfig>
