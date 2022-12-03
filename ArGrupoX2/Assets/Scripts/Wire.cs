@@ -23,15 +23,11 @@ public class Wire : MonoBehaviour
             line.SetPosition(0, cornerPos1.position);
             line.SetPosition(1, cornerPos2.position);
         }
-
         
     }
 
-    void OnCollisionEnter(Collision col)
+    private void OnTriggerEnter(Collider other)
     {
-        if (col.gameObject.name == "R1")
-        {
-            Debug.Log("Colisao com R1");
-        }
+        Debug.Log(gameObject.name + " on trigger " + other.gameObject.name);
     }
 }
